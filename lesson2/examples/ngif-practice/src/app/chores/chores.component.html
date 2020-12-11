@@ -11,7 +11,7 @@
     <ul>
         <li *ngFor = 'let done of finishedChores'>{{done}}</li>
     </ul>
-    <img src="{{ targetImage }}"  *ngIf = 'finishedChores.length > 2 || chores.length === 0; else noAllowanceYet'>
+    <img src="{{ targetImage }}"  *ngIf = 'finishedChores.length > (chores.length + 2) || chores.length === 0; else noAllowanceYet'>
 </div>
 
 
