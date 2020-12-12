@@ -2,3 +2,15 @@ h2 {
    color: blue;
    text-align: center;
 }
+
+.joke {
+   text-align: center;
+}
+
+.right {
+   text-align: right;
+}
+
+.left {
+   text-align: left;
+}

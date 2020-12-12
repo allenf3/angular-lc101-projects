@@ -1,0 +1,11 @@
+<h1>Joke Buttons</h1>
+
+<div class = centered (mouseleave)="inactive = false">
+    <button [class.frustration] = "!inactive" [disabled] = "inactive" (mouseover)="inactive = true" >Frustration Incarnate!</button>
+</div>
+
+<hr>
+
+<div [ngClass]="position">
+    <button (mouseover)="movePosition()">Catch Me!</button>
+</div>

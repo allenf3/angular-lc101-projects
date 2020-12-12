@@ -1,0 +1,27 @@
+h1 {
+    color: darkred;
+    text-decoration: underline;
+}
+
+.frustration {
+    background-color: yellow;
+}
+
+
+.centered {
+    display: block;
+    display: inline;
+    text-align: center;
+}
+
+.containerRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.containerLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
